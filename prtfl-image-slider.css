@@ -1,0 +1,177 @@
+.slider {
+    position:static;
+    overflow: hidden;
+    width: 80%;
+}
+
+.prtfl-images {
+    display: flex;
+    width: 100%;
+}
+
+.prtfl-images img {
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.prtfl-images input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+}
+
+.dots label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #fff 1px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover {
+    background: #fff;
+}
+
+#img1:checked~.m1 {
+    margin-left: 0;
+}
+
+#img2:checked~.m2 {
+    margin-left: -100%;
+}
+
+#img3:checked~.m3 {
+    margin-left: -200%;
+}
+
+#img4:checked~.m4 {
+    margin-left: -300%;
+}
+
+#img5:checked~.m5 {
+    margin-left: -400%;
+}
+
+#img6:checked~.m6 {
+    margin-left: -500%;
+}
+
+#img7:checked~.m7 {
+    margin-left: -600%;
+}
+
+#img8:checked~.m8 {
+    margin-left: -700%;
+}
+
+#img9:checked~.m9 {
+    margin-left: -800%;
+}
+
+/* JERALD */
+
+#limg1:checked~.lm1 {
+    margin-left: 0;
+}
+
+#limg2:checked~.lm2 {
+    margin-left: -100%;
+}
+
+#limg3:checked~.lm3 {
+    margin-left: -200%;
+}
+
+#limg4:checked~.lm4 {
+    margin-left: -300%;
+}
+
+#limg5:checked~.lm5 {
+    margin-left: -400%;
+}
+
+#limg6:checked~.lm6 {
+    margin-left: -500%;
+}
+
+#limg7:checked~.lm7 {
+    margin-left: -600%;
+}
+
+#limg8:checked~.lm8 {
+    margin-left: -700%;
+}
+
+#limg9:checked~.lm9 {
+    margin-left: -800%;
+}
+
+#limg10:checked~.lm10 {
+    margin-left: -900%;
+}
+
+
+/* CHRISTIAN */
+#rimg1:checked~.rm1 {
+    margin-left: 0;
+}
+
+#rimg2:checked~.rm2 {
+    margin-left: -100%;
+}
+
+#rimg3:checked~.rm3 {
+    margin-left: -200%;
+}
+
+#rimg4:checked~.rm4 {
+    margin-left: -300%;
+}
+
+/* JIMMAR & KEITH */
+#dimg1:checked~.dm1 {
+    margin-left: 0;
+}
+
+#dimg2:checked~.dm2 {
+    margin-left: -100%;
+}
+
+#dimg3:checked~.dm3 {
+    margin-left: -200%;
+}
+
+#dimg4:checked~.dm4 {
+    margin-left: -300%;
+}
+
+#dimg5:checked~.dm5 {
+    margin-left: -400%;
+}
+
+/* WHOLE GROUP */
+.g1{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wt-a{
+    color: rgb(214, 214, 214);
+    font-family: montserrat;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.wt-a:hover{
+    letter-spacing: .5px;
+    color: white;
+}
+/* WHOLE GROUP */

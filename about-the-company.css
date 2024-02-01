@@ -1,0 +1,72 @@
+.atc-slider {
+    position:static;
+    overflow: hidden;
+    width: 80%;
+}
+
+.atc-images {
+    display: flex;
+    width: 100%;
+}
+
+.atc-images img {
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.atc-images input {
+    display: none;
+}
+
+.atc-dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 100%;
+}
+
+.atc-dots label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.atc-dots label:hover {
+    background:black;
+}
+
+#tcimg1:checked~.tcm1 {
+    margin-left: 0;
+}
+
+#tcimg2:checked~.tcm2 {
+    margin-left: -100%;
+}
+
+#tcimg3:checked~.tcm3 {
+    margin-left: -200%;
+}
+
+#tcimg4:checked~.tcm4 {
+    margin-left: -300%;
+}
+
+#tcimg5:checked~.tcm5 {
+    margin-left: -400%;
+}
+
+#tcimg6:checked~.tcm6 {
+    margin-left: -500%;
+}
+
+#tcimg7:checked~.tcm7 {
+    margin-left: -600%;
+}
+
+#tcimg8:checked~.tcm8 {
+    margin-left: -700%;
+}
